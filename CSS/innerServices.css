@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    /* Light background for contrast */
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00625e;
+    padding: 15px 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+nav ul li a:hover {
+    background-color: #30b7ae92;
+    border-radius: 15px;
+
+
+}
+
+/* Logo Styles */
+#Logo {
+    width: 150px;
+    height: auto;
+}
+
+section {
+    padding: 50px 40px;
+
+}
+
+section div {
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+section div img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+section div h2 {
+    color: #12938f;
+    font-size: 40px;
+    margin-left: 150px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Creates a 2-column grid */
+    gap: 20px;
+    /* Space between grid items */
+    margin: 20px 0;
+    /* Margin around the grid */
+}
+
+.service-item {
+    border: 5px solid #00625e;
+    /* Border color */
+    padding: 20px;
+    /* Padding inside each grid item */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+    background-color: #f9f9f9;
+    /* Background color */
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Images/beige-abstract-wallpaper-background-image.jpg);
+    background-size: cover;
+}
+
+.service-item h3 {
+    margin: 0 0 10px 0;
+    /* Margin for the heading */
+    display: flex;
+    /* Flex display for icon and text */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.service-item p {
+    margin: 0;
+    /* Reset margin for paragraphs */
+    color: #555;
+    /* Text color */
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00625e;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

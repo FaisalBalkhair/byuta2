@@ -1,0 +1,120 @@
+/* Reset styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    /* Light background for contrast */
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00625e;
+    padding: 15px 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+nav ul li a:hover {
+    background-color: #30b7ae92;
+    border-radius: 15px;
+
+
+}
+
+/* Logo Styles */
+#Logo {
+    width: 150px;
+}
+
+/* Services Section Styles */
+#services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #30b7ad;
+    /* Highlight the section title */
+}
+
+/* Service Grid Styles */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 50px;
+}
+
+.service-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #4accbf;
+}
+
+.service-item a {
+    text-decoration: none;
+}
+
+.service-item h3 {
+    margin: 15px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.service-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Hover Effect */
+.service-item:hover {
+    transform: translatey(-5px);
+    /* Slight lift effect on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00625e;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
